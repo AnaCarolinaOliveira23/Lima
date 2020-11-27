@@ -1,0 +1,47 @@
+body {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    background-image: url(./img/plano\ de\ fundo.jpg);
+    
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+    text-align: center;
+    width: 80%;
+    flex-wrap: wrap;
+   
+}
+
+section{
+    background-color: white;
+    width: 80%;
+    margin: 20px;
+    padding-bottom: 15px;
+    background-image: url(./img/f5202b119b0d29f68d39292d9f9b9998.jpg);
+    box-shadow: inset 0 0 1em white
+}
+
+form > input:focus {
+   background-color: turquoise;
+}
+
+#name {
+    width: 37%;
+}
+#endereco {
+    width: 37%;
+}
+#senha {
+    width: 140px;
+}
+h1, h2, h4{
+    color: white;
+}
+label{
+    color: white;
+}
